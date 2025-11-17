@@ -50,7 +50,7 @@ try {
     $installArgs = @(
         "install",
         "--id", $wingetAppId,
-        "--scope", "machine",
+    #    "--scope", "machine", 
         "--accept-source-agreements",
         "--accept-package-agreements",
         "--disable-interactivity",
